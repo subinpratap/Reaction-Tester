@@ -1,6 +1,7 @@
 function reaction()
 {
-
+				document.getElementById("button").style.visibility = "hidden";
+				
 				var clickedtime; var createdtime; var reactiontime;
 				
 				function getRandomColor(){
@@ -29,10 +30,10 @@ function reaction()
 						}
 						
 						var poswidth=Math.random();
-						poswidth=poswidth*1350;
+						poswidth=poswidth*1270;
 						
 						var posheight=Math.random();
-						posheight=posheight*700;
+						posheight=posheight*600;
 						
 						document.getElementById("square").style.left=poswidth+"px";
 						document.getElementById("square").style.top=posheight+"px";
