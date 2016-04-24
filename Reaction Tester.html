@@ -4,6 +4,7 @@
 <head>
 	<title>Reaction Game</title>
 	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald">
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link href="reaction tester.css" rel="stylesheet" type="text/css" />
@@ -11,11 +12,25 @@
 	
 </head>
 
-<body onload="reaction()">
+<body>
 
-		<h1>Test you reactions</h1>
-		<p>Reaction time is: <span id="spa"></span> seconds</p>
-		<div id="square"></div>
+	<div id="container">
+
+		<div id="main">	
+		</div>
 		
+		<div id="content">
+		
+			<h1>Test your reaction</h1>
+			<p>Click on the figures appearing on the screen</p>
+			<p>Your reaction time is: <span id="spa"></span> seconds</p>
+			
+			<div id="square">
+			</div>
+		</div>
+		
+		<button onclick="reaction()" type="button" id="button">START</button>
+		
+	</div>
 </body>
 </html>
